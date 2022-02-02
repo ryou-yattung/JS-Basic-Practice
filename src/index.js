@@ -8,6 +8,7 @@ import Js4 from "./js4";
 import Js5 from "./js5";
 import Js6 from "./js6";
 import Js7 from "./js7";
+import Js8 from "./js8";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,8 +23,10 @@ ReactDOM.render(
     <Js5 />
     {/*Arrow Function, Callback, SetTimeout, ForEach*/}
     <Js6 />
-    {/*Arrow Function, Callback, SetTimeout, ForEach*/}
-    <Js6 />
+    {/*Object, this*/}
+    <Js7 />
+    {/*Document Ojbect Model (DOM), Event*/}
+    <Js8 />
   </React.StrictMode>,
   document.getElementById("root")
 );
