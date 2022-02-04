@@ -12,6 +12,20 @@ const js8 = () => {
     e.target.style.fontSize = "5rem";
   };
 
+  class Player {
+    constructor(fullName, age, gender, hairColor) {
+      this.fullName = fullName;
+      this.age = age;
+      this.gender = gender;
+      this.hairColor = hairColor;
+    }
+    toString() {
+      return "Name: " + this.fullName + ", Age:" + this.age;
+    }
+  }
+  const inori = new Player("Inori", 16, "girl", "pink");
+  console.log(inori.toString());
+
   return (
     <div>
       <h1>basic js</h1>
